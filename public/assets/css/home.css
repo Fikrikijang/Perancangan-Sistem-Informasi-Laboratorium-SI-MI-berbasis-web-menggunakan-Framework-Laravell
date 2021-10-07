@@ -1,0 +1,293 @@
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  margin-left: 25px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: 0px !important;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #0D2E7B;
+  color: #fff;
+}
+
+.top-all {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-all hr {
+  background-color: white;
+}
+
+.top-all .jumbotron {
+  margin-top: 65px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  background-color: #001036;
+}
+
+.top-all .top-kiri {
+  padding: 50px;
+  color: white;
+}
+
+.top-all .top-kiri h1 {
+  font-weight: bold;
+}
+
+.top-all .top-kiri h2 {
+  margin-top: 25px;
+}
+
+.top-all .top-kiri .tombol-mulai {
+  margin-top: 50px;
+  width: 250px;
+}
+
+.top-all .top-kanan {
+  padding: 50px;
+  color: white;
+}
+
+.top-all .top-kanan .card {
+  border: 3px solid white;
+  border-radius: 15px;
+  background-color: #001036;
+  padding: 15px;
+  margin: 0px 0px 15px 0px;
+}
+
+.top-all .top-kanan .card h6 {
+  font-weight: bold;
+}
+
+.top-all .top-kanan i {
+  font-size: 45px;
+}
+
+.content {
+  background-color: #EDF2F7;
+  padding: 25px 50px 25px 50px;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.content .card-body {
+  margin-top: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.content .big-content {
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: auto;
+  margin-bottom: 15px;
+}
+
+.content .big-content .card-body {
+  margin-top: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.content .big-content .card-body .desc-content {
+  padding-bottom: 50px;
+}
+
+.content .big-content .card-body h6 {
+  margin-bottom: 10px;
+}
+
+.content .big-content .image-besar {
+  display: block;
+  border-radius: 15px 15px 0px 0px;
+  max-width: 100%;
+  height: auto;
+}
+
+.content .small-content {
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: auto;
+  margin-bottom: 15px;
+}
+
+.content .small-content .card-body {
+  margin-top: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.content .small-content .card-body h6 {
+  margin-bottom: 10px;
+}
+
+.content .small-content img {
+  border-radius: 15px 15px 0px 0px;
+  max-width: 100%;
+  height: auto;
+}
+
+.header-playlist {
+  margin: 65px 0px 0px 0px;
+  padding: 0px;
+}
+
+.header-playlist .header-all {
+  background-color: #001036;
+  margin: 0px;
+}
+
+.header-playlist .headerpl-kiri {
+  padding: 50px;
+  color: white;
+}
+
+.header-playlist .headerpl-kanan {
+  padding: 50px;
+}
+
+.header-playlist .headerpl-kanan .card {
+  border-radius: 15px;
+  background-color: #001036;
+}
+
+.header-playlist .headerpl-kanan .gambar-playlist {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+.list-playlist {
+  background-color: #EDF2F7;
+  padding: 20px 0px 40px 0px;
+}
+
+.list-playlist .share-link {
+  font-size: 15px;
+  background-color: #333;
+  color: white;
+}
+
+.list-playlist .playlist-all {
+  padding: 15px;
+  background-color: #EDF2F7;
+}
+
+.list-playlist .playlist-all .card-header {
+  background-color: #333;
+  color: white;
+}
+
+.list-playlist .modul-all {
+  background-color: #EDF2F7;
+  padding: 15px;
+}
+
+.list-playlist .modul-all .card-header {
+  background-color: #333;
+  color: white;
+}
+
+.header-episode {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-episode .episode-all {
+  background-color: #001036;
+  margin: 65px 0px 0px 0px;
+  padding: 25px;
+  padding-bottom: 35px;
+}
+
+.header-episode .episode-all .video-episode .play-video {
+  border: 0px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.header-episode .episode-all .video-episode .video-all {
+  border-radius: 15px;
+}
+
+.header-episode .list-group {
+  max-height: 540px;
+  border-radius: 15px;
+  overflow: scroll;
+}
+
+.stats-episode {
+  padding: 15px 25px 10px 25px;
+  background-color: #ED8936;
+  color: white;
+}
+
+.stats-episode h5 {
+  font-weight: bold;
+}
+
+.desc-episode {
+  background-color: #EDF2F7;
+  padding: 50px;
+}
+
+.desc-episode .logo-video {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 45px;
+}
+
+.footer {
+  background-color: #001036;
+  color: white;
+  padding: 50px 50px 10px 50px;
+}
+
+.footer .footer-logo {
+  max-width: 350px;
+  height: auto;
+}
+
+.footer .footer-bag2 h4 {
+  font-weight: bold;
+}
+
+.footer .tombol-sosmed {
+  background-color: #0D2E7B;
+  color: white;
+  margin: 0px 5px 0px 5px;
+}
+
+.footer .cpright hr {
+  background-color: white;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,301 @@
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  margin-left: 25px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: 0px !important;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #0D2E7B;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0px 200px;
+  margin-top: 0px;
+  background-image: url("../images/Background.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  margin-top: 150px;
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  opacity: 1;
+  font-size: 50px;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  33% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  33% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+    opacity: 0;
+  }
+}
+
+header .button {
+  margin-top: 25px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #071C4D;
+  -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 200px;
+  height: 80px;
+  padding: 0 30px;
+  color: #fff;
+  font-family: Lato, Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: background .3s, -webkit-transform .3s, -webkit-box-shadow .3s;
+  transition: background .3s, -webkit-transform .3s, -webkit-box-shadow .3s;
+  transition: background .3s, transform .3s, box-shadow .3s;
+  transition: background .3s, transform .3s, box-shadow .3s, -webkit-transform .3s, -webkit-box-shadow .3s;
+  will-change: transform;
+}
+
+header .button:hover {
+  background: #030b1e;
+  -webkit-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(0, -2px, 0);
+          transform: translate3d(0, -2px, 0);
+}
+
+header .button:active {
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate3d(0, 1px, 0);
+          transform: translate3d(0, 1px, 0);
+}
+
+header .pulse {
+  position: relative;
+}
+
+header .pulse:before, header .pulse:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  margin: auto;
+}
+
+header .pulse:before {
+  -webkit-animation: pulse 1.5s infinite linear;
+          animation: pulse 1.5s infinite linear;
+}
+
+header .pulse:after {
+  -webkit-animation: pulse 2s .4s infinite linear;
+          animation: pulse 2s .4s infinite linear;
+}
+
+header .pulse:hover:before, header .pulse:hover:after {
+  display: none;
+}
+
+.tampil-news {
+  margin: 25px 25px 50px;
+}
+
+.tampil-news h2 {
+  margin-top: 50px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #071C4D;
+}
+
+.tampil-news .card-news {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.batas-news {
+  background-color: #000;
+  height: 5px;
+  margin: 50px 0px 50px;
+}
+
+#tampilprosedur {
+  margin: 25px 25px 50px;
+}
+
+#tampilprosedur .link-prosedur p {
+  color: #071C4D;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#tampilprosedur .link-prosedur:link {
+  text-decoration: none;
+}
+
+#tampilprosedur h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #071C4D;
+}
+
+#tampilprosedur #sectionprosedur {
+  margin-top: 50px;
+}
+
+#tampilprosedur .card-prosedur {
+  min-height: 150px;
+  text-align: center;
+  margin-bottom: 50px;
+  border: none;
+}
+
+#tampilprosedur .card-prosedur img {
+  max-height: 300px;
+  max-width: 300px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.section-staff-heading {
+  margin-top: 60px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+}
+
+.section-staff-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-staff-heading .btn-see-staff {
+  background-color: #FF9E53;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.section-staff-heading .btn-see-staff:hover {
+  background-color: #FFAA69;
+  color: #fff;
+}
+
+.section-tampil-staff {
+  padding-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.section-tampil-staff .card-staff {
+  background-color: #071C4D;
+  margin-top: 25px;
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.section-tampil-staff .card-staff:hover {
+  background-color: #0D2E7B;
+  color: #fff;
+}
+
+.section-tampil-staff .staff-content {
+  min-height: 250px;
+  color: #fff;
+}
+
+.section-tampil-staff h3 {
+  font-size: 22px;
+}
+
+.section-tampil-staff .tombol-staff {
+  background-color: #071C4D;
+  height: 50px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: none;
+}
+
+.section-tampil-staff .tombol-staff:hover {
+  background-color: #0D2E7B;
+  color: #fff;
+}
+/*# sourceMappingURL=beranda.css.map */

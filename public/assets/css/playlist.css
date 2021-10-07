@@ -1,0 +1,123 @@
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  margin-left: 25px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: 0px !important;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #0D2E7B;
+  color: #fff;
+}
+
+.header-playlist {
+  margin: 65px 0px 0px 0px;
+  padding: 0px;
+}
+
+.header-playlist .header-all {
+  background-color: #001036;
+  margin: 0px;
+}
+
+.header-playlist .headerpl-kiri {
+  padding: 50px;
+  color: white;
+}
+
+.header-playlist .headerpl-kanan {
+  padding: 50px;
+}
+
+.header-playlist .headerpl-kanan .card {
+  border-radius: 15px;
+  background-color: #001036;
+}
+
+.header-playlist .headerpl-kanan .gambar-playlist {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+.list-playlist {
+  background-color: #EDF2F7;
+  padding: 20px 0px 40px 0px;
+}
+
+.list-playlist .share-link {
+  font-size: 15px;
+  background-color: #333;
+  color: white;
+}
+
+.list-playlist .playlist-all {
+  padding: 15px;
+  background-color: #EDF2F7;
+}
+
+.list-playlist .playlist-all .card-header {
+  background-color: #333;
+  color: white;
+}
+
+.list-playlist .modul-all {
+  background-color: #EDF2F7;
+  padding: 15px;
+}
+
+.list-playlist .modul-all .card-header {
+  background-color: #333;
+  color: white;
+}
+
+.footer {
+  background-color: #001036;
+  color: white;
+  padding: 50px 50px 10px 50px;
+}
+
+.footer .footer-logo {
+  max-width: 350px;
+  height: auto;
+}
+
+.footer .footer-bag2 h4 {
+  font-weight: bold;
+}
+
+.footer .tombol-sosmed {
+  background-color: #0D2E7B;
+  color: white;
+  margin: 0px 5px 0px 5px;
+}
+
+.footer .cpright hr {
+  background-color: white;
+}
+/*# sourceMappingURL=playlist.css.map */

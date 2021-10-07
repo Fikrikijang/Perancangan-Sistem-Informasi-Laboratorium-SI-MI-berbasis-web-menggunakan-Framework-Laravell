@@ -1,0 +1,343 @@
+body {
+    background-color: #fff;
+    font-family: 'Assistant', sans-serif;
+}
+
+//   navbar
+  
+  .navbar-brand {
+    img {
+        max-height: 40px;
+        margin-left: 25px;
+    }
+  }
+  
+  .btn-navbar-right {
+    margin-top: -10px !important;
+    height: 70px;
+    margin-bottom: -8px !important;
+    margin-right: 0px !important;
+    border-radius: 0;
+  }
+  
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        color: #071C4D;
+  
+        &.active {
+          font-weight: bold;
+          color: #071C4D !important;
+        }
+      }
+    }
+  }
+  
+  .btn-login {
+    background-color: #071C4D;
+    color: #fff;
+  
+    &:hover {
+        background-color: #0D2E7B;
+        color: #fff;
+    }
+  }
+
+//   end navbar
+
+// home css
+.top-all {
+    margin: 0px;
+    padding: 0px;
+
+    hr {
+        background-color: white;
+    }
+
+    .jumbotron {
+        margin-top: 65px;
+        margin-bottom: 0px;
+        padding-top: 30px;
+        // padding-bottom: 50px;
+        background-color: #001036;
+    }
+    
+    .top-kiri {
+        padding: 50px;
+        color: white;
+        h1 {
+          // text-align: center;
+          font-weight: bold;
+        }
+    
+        h2 {
+            margin-top: 25px;
+        }
+
+        .tombol-mulai {
+          margin-top: 50px;
+          width: 250px;
+        }
+    }
+
+    .top-kanan {
+        padding: 50px;
+        color: white;
+
+        .card {
+            border: 3px solid white;
+            border-radius: 15px;
+            background-color: #001036;
+            padding: 15px;
+            margin: 0px 0px 15px 0px;
+
+            h6 {
+                font-weight: bold;
+            }
+        }
+
+        i {
+          font-size: 45px;
+        }
+
+    }
+
+}
+
+
+.content {
+    a {
+      text-decoration: none;
+    }
+    background-color: #EDF2F7;
+    padding: 25px 50px 25px 50px;
+
+    .card-body {
+      margin-top: 0px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+
+    .big-content {
+
+      border-radius: 15px;
+      max-width: 100%;
+      max-height: auto;
+      margin-bottom: 15px;
+
+      .card-body {
+        margin-top: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+        .desc-content {
+          padding-bottom: 50px;
+        }
+
+        h6 {
+          margin-bottom: 10px;
+        }
+      }
+        
+        .image-besar {
+          // size: contain;
+          display: block;
+          border-radius: 15px 15px 0px 0px;
+          max-width: 100%;
+          height: auto;
+          // max-height: 530px;
+            
+        }
+    }
+
+    .small-content {
+      border-radius: 15px;
+      max-width: 100%;
+      max-height: auto;
+      margin-bottom: 15px;
+
+      .card-body {
+        margin-top: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+        h6 {
+          margin-bottom: 10px;
+        }
+      }
+
+      img {
+        // size: contain;
+        border-radius: 15px 15px 0px 0px;
+        max-width: 100%;
+        height: auto;
+        // max-height: 200px;
+          
+      }
+    }
+}
+
+// end home
+
+
+
+// tampil playlist
+
+.header-playlist {
+  margin: 65px 0px 0px 0px;
+  padding: 0px;
+
+
+  .header-all {
+      background-color: #001036;
+      margin: 0px;
+  }
+
+  .headerpl-kiri {
+      padding: 50px;
+      color: white;
+  }
+
+  .headerpl-kanan {
+      padding: 50px;
+
+      .card {
+          border-radius: 15px;
+          background-color: #001036;
+          // margin: 0px 50px 50px 50px;
+      }
+      .gambar-playlist{
+          border-radius: 15px;
+          max-width : 100%;
+          height: auto;
+      }
+  }
+
+}
+
+.list-playlist {
+  background-color: #EDF2F7;
+  padding: 20px 0px 40px 0px;
+
+  .share-link {
+      font-size: 15px;
+      background-color: #333;
+      color: white;
+      // margin: 0px 5px 0px 5px;
+  }
+  
+  .playlist-all {
+      padding: 15px;
+      background-color: #EDF2F7;
+      .card-header {
+          background-color: #333;
+          color: white;
+      }
+      // margin-top: -100px;
+  }
+
+  .modul-all {
+      background-color: #EDF2F7;
+      padding: 15px;
+      .card-header {
+          background-color: #333;
+          color: white;
+      }
+      // margin-top: -100px;
+  }
+  
+}
+// end playlist
+
+
+// tampil episode
+.header-episode {
+  margin: 0px;
+  padding: 0px;
+  
+  .episode-all {
+    
+  background-color: #001036;
+    margin: 65px 0px 0px 0px;
+    padding: 25px;
+    padding-bottom: 35px;
+  
+    .video-episode {
+      
+      .play-video {
+        border: 0px ;
+        border-radius: 15px;
+        margin-bottom: 25px;
+      }
+  
+      .video-all {
+        border-radius: 15px;
+      }
+    }
+  }
+
+  .list-group{
+    max-height: 540px;
+    border-radius: 15px;
+    overflow:scroll;
+    // -webkit-overflow-scrolling: touch;
+  }
+}
+
+
+.stats-episode {
+  padding: 15px 25px 10px 25px;
+  background-color: #ED8936;
+  color: white;
+
+  h5 {
+    font-weight: bold;
+  }
+}
+
+.desc-episode {
+  background-color: #EDF2F7;
+  padding: 50px;
+  .logo-video {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 45px;
+  }
+}
+
+
+
+// end episode
+
+.footer {
+  background-color: #001036;
+  color: white;
+  padding: 50px 50px 10px 50px;
+
+  .footer-logo {
+    max-width: 350px;
+    height: auto;
+  }
+
+  .footer-bag2 {
+    h4 {
+      font-weight: bold;
+    }
+  }
+
+  .tombol-sosmed {
+    background-color: #0D2E7B;
+    color: white;
+    margin: 0px 5px 0px 5px;
+  }
+
+  .cpright {
+    hr {
+      background-color: white;
+    }
+
+    h5 {
+      
+    }
+  }
+}

@@ -1,0 +1,144 @@
+body {
+    background-color: #fff;
+    font-family: 'Assistant', sans-serif;
+}
+
+//   navbar
+  
+  .navbar-brand {
+    img {
+        max-height: 40px;
+        margin-left: 25px;
+    }
+  }
+  
+  .btn-navbar-right {
+    margin-top: -10px !important;
+    height: 70px;
+    margin-bottom: -8px !important;
+    margin-right: 0px !important;
+    border-radius: 0;
+  }
+  
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        color: #071C4D;
+  
+        &.active {
+          font-weight: bold;
+          color: #071C4D !important;
+        }
+      }
+    }
+  }
+  
+  .btn-login {
+    background-color: #071C4D;
+    color: #fff;
+  
+    &:hover {
+        background-color: #0D2E7B;
+        color: #fff;
+    }
+  }
+
+//   end navbar
+
+.header-playlist {
+    margin: 65px 0px 0px 0px;
+    padding: 0px;
+
+
+    .header-all {
+        background-color: #001036;
+        margin: 0px;
+    }
+
+    .headerpl-kiri {
+        padding: 50px;
+        color: white;
+    }
+
+    .headerpl-kanan {
+        padding: 50px;
+
+        .card {
+            border-radius: 15px;
+            background-color: #001036;
+            // margin: 0px 50px 50px 50px;
+        }
+        .gambar-playlist{
+            border-radius: 15px;
+            max-width : 100%;
+            height: auto;
+        }
+    }
+
+}
+
+.list-playlist {
+    background-color: #EDF2F7;
+    padding: 20px 0px 40px 0px;
+
+    .share-link {
+        font-size: 15px;
+        background-color: #333;
+        color: white;
+        // margin: 0px 5px 0px 5px;
+    }
+    
+    .playlist-all {
+        padding: 15px;
+        background-color: #EDF2F7;
+        .card-header {
+            background-color: #333;
+            color: white;
+        }
+        // margin-top: -100px;
+    }
+
+    .modul-all {
+        background-color: #EDF2F7;
+        padding: 15px;
+        .card-header {
+            background-color: #333;
+            color: white;
+        }
+        // margin-top: -100px;
+    }
+    
+}
+
+.footer {
+    background-color: #001036;
+    color: white;
+    padding: 50px 50px 10px 50px;
+  
+    .footer-logo {
+      max-width: 350px;
+      height: auto;
+    }
+  
+    .footer-bag2 {
+      h4 {
+        font-weight: bold;
+      }
+    }
+  
+    .tombol-sosmed {
+      background-color: #0D2E7B;
+      color: white;
+      margin: 0px 5px 0px 5px;
+    }
+  
+    .cpright {
+      hr {
+        background-color: white;
+      }
+  
+      h5 {
+        
+      }
+    }
+  }
